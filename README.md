@@ -7,6 +7,7 @@ This repository contains my projects in:
 - Power BI
 - Excel
 - Python Notebooks
+- SQL
 
 ## Skills
 - Data Cleaning
