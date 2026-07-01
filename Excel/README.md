@@ -13,6 +13,8 @@ I use Excel to clean, analyze, and visualize data.
 - Data Cleaning Exercises
 - Basic Sales Analysis
 - Healthcare Data Formatting
+- HR Analysis
+- Marketing Analysis
 
 ---
 
