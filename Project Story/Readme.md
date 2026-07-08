@@ -1,140 +1,97 @@
-#Employee Attrition Analytics: Solving the Same Business Problem with Multiple Technologies
+📊 Employee Attrition Analytics: Solving the Same Business Problem with Multiple Technologies
+📌 Business Problem
 
-Business Problem
+Employee turnover increases recruitment costs, reduces productivity, and impacts organizational performance. The objective of this project was to identify the key drivers of employee attrition and transform raw HR data into actionable business insights that support informed decision-making.
 
-Employee turnover increases recruitment costs, reduces productivity, and impacts organizational performance. The objective of this project was to identify the main drivers of employee attrition and communicate actionable insights to management.
+This project demonstrates how the same business problem can be solved using Microsoft Excel, SQL, Python, and Power BI, showcasing proficiency across the modern data analytics workflow.
 
-This project was completed using four different analytics tools to demonstrate proficiency across the modern analytics workflow.
+📗 Microsoft Excel Version
 
-1️⃣ Excel Version
-Tools
-Excel
+#Tools Used
+Microsoft Excel
 Pivot Tables
 Pivot Charts
 Slicers
-Power Query (optional)
-Skills Demonstrated
+Excel Functions
+Conditional Formatting
+
+#Skills Demonstrated
 Data Cleaning
-Excel Formulas
+Data Transformation
 Dashboard Design
-KPI Reporting
+KPI Development
+Data Visualization
 Business Storytelling
-Dashboard Pages
+Interactive Reporting
+Excel Analytics
 
-✔ Executive Overview
+🗄️ SQL Version
 
-✔ Employee Insights
-
-✔ Executive Summary
-
-(Use the screenshots you've already created.)
-
-Key Insights
-Overall Attrition Rate
-Department Attrition
-Promotion Risk
-Work-Life Balance
-Overtime Analysis
-Executive Recommendations
-2️⃣ SQL Version
-Tools
+#Tools Used
 MySQL
-SQL Server (or PostgreSQL)
-Skills
+SQL Server
+
+#Skills Demonstrated
 Database Design
 Data Cleaning
-Aggregations
-Window Functions
-Business Queries
-Example SQL Questions
-What is the overall attrition rate?
-
-Which department has the highest attrition?
-
-Average tenure of employees who left?
-
-Top 5 departments with highest turnover?
-
-Attrition by Promotion Bucket
-
-Attrition by Overtime
-
-Attrition by Salary Band
-
-Attrition by Performance Category
-
-Average Satisfaction by Department
-
-Employees most at risk
-SQL Concepts Used
-SELECT
-WHERE
-GROUP BY
-HAVING
-ORDER BY
-CASE WHEN
-CTEs
+Data Transformation
+SQL Query Writing
+Data Aggregation
 Window Functions
 Views
-3️⃣ Python Notebook Version
-Tools
+Business Intelligence
+Data Analysis
+
+🐍 Python Version
+
+#Tools Used
 Jupyter Notebook
 Pandas
 NumPy
 Matplotlib
 Plotly
-Notebook Sections
-Introduction
 
-Business Problem
-
-Import Libraries
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-Load Dataset
-df = pd.read_excel("HR_Data.xlsx")
+#Skills Demonstrated
 Data Cleaning
-Missing values
-Duplicates
-Datatypes
-Feature Engineering
-Exploratory Data Analysis
+Exploratory Data Analysis (EDA)
+Data Manipulation
+Statistical Analysis
+Data Visualization
+Business Insights
+Python Programming
 
-Charts such as:
-
-Attrition Distribution
-Department Analysis
-Salary Analysis
-Promotion Analysis
-Satisfaction Analysis
-Overtime Analysis
-Key Insights
-
-Written business findings after every chart.
-
-Recommendations
-
-Exactly like an executive report.
-
-4️⃣ Power BI Version
-Skills
+📊 Power BI Version
+#Tools Used
+Microsoft Power BI
 Power Query
-Data Modeling
-Relationships
 DAX
+Data Modeling
+
+#Skills Demonstrated
+Data Modeling
+Data Transformation
+DAX Calculations
 Dashboard Design
 Interactive Reporting
-Dashboard Pages
-Executive Overview
+KPI Development
+Business Intelligence
+Data Visualization
+Executive Reporting
 
-Skills Demonstrated
+🚀 Overall Skills Demonstrated
 Microsoft Excel
-Power BI
 SQL
 Python
+Power BI
 Data Cleaning
+Data Transformation
+Exploratory Data Analysis (EDA)
 Data Visualization
 Dashboard Design
 Business Intelligence
 KPI Development
+Business Storytelling
+HR Analytics
+Problem Solving
+Analytical Thinking
+Executive Reporting
