@@ -1,92 +1,140 @@
-# 📊 Employee Attrition Analysis Dashboard
+Employee Attrition Analytics: Solving the Same Business Problem with Multiple Technologies
 
-**Tools Used:** Microsoft Excel, PivotTables, PivotCharts, Slicers, Data Cleaning, Dashboard Design
+Business Problem
 
-## Project Overview
+Employee turnover increases recruitment costs, reduces productivity, and impacts organizational performance. The objective of this project was to identify the main drivers of employee attrition and communicate actionable insights to management.
 
-Employee attrition can have a significant impact on productivity, recruitment costs, and business performance. This project analyzes employee data to identify the key drivers of employee turnover and presents the findings through an interactive Excel dashboard.
+This project was completed using four different analytics tools to demonstrate proficiency across the modern analytics workflow.
 
-The objective was to transform raw HR data into meaningful business insights that support better decision-making. This project forms part of my Marketing and Data Analytics portfolio, demonstrating my ability to communicate data through clear and actionable visualizations.
+1️⃣ Excel Version
+Tools
+Excel
+Pivot Tables
+Pivot Charts
+Slicers
+Power Query (optional)
+Skills Demonstrated
+Data Cleaning
+Excel Formulas
+Dashboard Design
+KPI Reporting
+Business Storytelling
+Dashboard Pages
 
----
+✔ Executive Overview
 
-## Data Preparation
+✔ Employee Insights
 
-The dataset was cleaned and structured to ensure accurate analysis.
+✔ Executive Summary
 
-### Data Cleaning
+(Use the screenshots you've already created.)
 
-* Standardized column headers and converted the dataset into an Excel Table.
-* Removed duplicate records and handled missing values.
-* Cleaned text fields by removing extra spaces and ensuring consistent naming.
-* Standardized Attrition values (Yes/No) for reliable reporting.
+Key Insights
+Overall Attrition Rate
+Department Attrition
+Promotion Risk
+Work-Life Balance
+Overtime Analysis
+Executive Recommendations
+2️⃣ SQL Version
+Tools
+MySQL
+SQL Server (or PostgreSQL)
+Skills
+Database Design
+Data Cleaning
+Aggregations
+Window Functions
+Business Queries
+Example SQL Questions
+What is the overall attrition rate?
 
-### Calculated & Engineered Columns
+Which department has the highest attrition?
 
-The following calculated fields were created to improve analysis:
+Average tenure of employees who left?
 
-* **Leaver Flag** – Converts Attrition into a numeric value for KPI calculations.
-* **Promotion Bucket** – Groups employees according to years since their last promotion.
-* **Work-Life Balance Bucket** – Categorizes employees based on work-life balance ratings.
-* **Salary Band** – Groups monthly income into salary ranges for comparison.
-* **Performance Bucket** – Categorizes performance ratings into meaningful groups.
-* **Tenure (Years)** – Calculates employee length of service.
+Top 5 departments with highest turnover?
 
----
+Attrition by Promotion Bucket
 
-## Dashboard Features
+Attrition by Overtime
 
-The dashboard was designed to provide an executive-level overview of employee attrition.
+Attrition by Salary Band
 
-### Key Performance Indicators (KPIs)
+Attrition by Performance Category
 
-* Overall Attrition Rate
-* Average Tenure of Employees Who Left
-* Percentage of Employees with Stale Promotions
-* Percentage of Low Performers
+Average Satisfaction by Department
 
-### Interactive Visualizations
+Employees most at risk
+SQL Concepts Used
+SELECT
+WHERE
+GROUP BY
+HAVING
+ORDER BY
+CASE WHEN
+CTEs
+Window Functions
+Views
+3️⃣ Python Notebook Version
+Tools
+Jupyter Notebook
+Pandas
+NumPy
+Matplotlib
+Plotly
+Notebook Sections
+Introduction
 
-* **Attrition by Promotion Status**
-* **Pay Band vs Performance Rating**
-* **Work-Life Balance vs Attrition**
+Business Problem
 
-### Interactive Filters
+Import Libraries
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+Load Dataset
+df = pd.read_excel("HR_Data.xlsx")
+Data Cleaning
+Missing values
+Duplicates
+Datatypes
+Feature Engineering
+Exploratory Data Analysis
 
-Users can filter the dashboard using slicers for:
+Charts such as:
 
-* Salary Band
-* Work-Life Balance
-* Promotion Status
+Attrition Distribution
+Department Analysis
+Salary Analysis
+Promotion Analysis
+Satisfaction Analysis
+Overtime Analysis
+Key Insights
 
----
+Written business findings after every chart.
 
-## Key Business Insights
+Recommendations
 
-* Employees who had not received a promotion for **5 or more years accounted for approximately 53.67% of employee attrition**, suggesting that career progression is a major retention factor.
+Exactly like an executive report.
 
-* Employees with poor work-life balance recorded the highest levels of attrition, indicating that employee wellbeing plays a critical role in retention.
+4️⃣ Power BI Version
+Skills
+Power Query
+Data Modeling
+Relationships
+DAX
+Dashboard Design
+Interactive Reporting
+Dashboard Pages
+Executive Overview
 
-* Several middle salary bands contained a high proportion of top-performing employees, highlighting potential salary misalignment and future turnover risk.
-
----
-
-## Business Value
-
-This project demonstrates how Excel can be used to convert operational HR data into executive-level insights. Rather than simply reporting numbers, the dashboard tells a business story that helps decision-makers identify retention risks and prioritize strategic interventions.
-
-Although developed in Excel, the same analytical approach can be extended into Power BI or other Business Intelligence platforms.
-
---
-
-## Skills Demonstrated
-
-* Data Cleaning
-* Data Analysis
-* Dashboard Design
-* Data Storytelling
-* KPI Development
-* PivotTables & PivotCharts
-* Excel Functions
-* Business Insight Generation
-* Marketing Analytics
+Skills Demonstrated
+Microsoft Excel
+Power BI
+SQL
+Python
+Data Cleaning
+Data Visualization
+Dashboard Design
+Business Intelligence
+KPI Development
